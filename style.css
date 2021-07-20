@@ -103,3 +103,24 @@ body{
 #main-doc article p{
     margin: 1rem 0;
 }
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    body{
+        position: static;
+    }
+
+    #navbar {
+        min-width: 290px;
+        width: 100%;
+        position: static;
+        height: none;
+        border-right: none;
+    }
+
+    #main-doc {
+        position: static;
+        padding: 1rem;
+        width: 100%;
+    }
+}
